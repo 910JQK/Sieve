@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 var Prime = ['-', '-', true];
 var Blocks = [];
 var mainview, ctx, score_label, right_edge
