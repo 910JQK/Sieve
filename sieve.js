@@ -83,7 +83,7 @@ function game_start(){
 
 
 function work(left, right){
-    var limit = Math.ceil(Math.sqrt(right));
+    var limit = Math.ceil(Math.sqrt(right+1));
     var i, t;
     for(i=left+1; i<=right; i++)
 	Prime[i] = true;
