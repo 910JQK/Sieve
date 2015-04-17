@@ -1,3 +1,12 @@
+/*
+
+記錄：
+	14.12.27
+	實現方式待改進
+
+*/
+
+
 //"use strict";
 var Prime = ['-', '-', true];
 var Blocks = [];
@@ -7,20 +16,13 @@ var count = 0;
 var score = 0;
 var running = false;
 var click_enabled = true;
+
+
 const speed = 10;
 const step = 100;
 const create_interval = 800;
 const text_font = "bold 24px sans-serif";
 const title_font = "bold 48px sans-serif";
-
-
-/*
-
-記錄：
-	14.12.27
-	實現方式待改進
-
-*/
 
 
 function $(selector){
